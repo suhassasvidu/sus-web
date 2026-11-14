@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#050814">
+    <meta name="description" content="Copy the HTML, CSS and JavaScript code from Web Team Builder videos.">
+    <title>Video Codes | Web Team Builder</title>
+
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- header section starts -->
+
+<header class="header">
+
+    <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Web Team Builder logo">
+        <span>Web Team Builder</span>
+    </a>
+
+    <nav class="navbar" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="index.html#services">What we do</a>
+        <a href="index.html#content">Videos</a>
+        <a href="videos.html" class="current">Video codes</a>
+        <a href="index.html#faq">FAQ</a>
+    </nav>
+
+    <a href="https://www.youtube.com/channel/UCu9IM22sC3gI85IC5qrIlCg?sub_confirmation=1" class="btn btn-sub" target="_blank" rel="noopener" aria-label="Subscribe on YouTube">
+        <i class="fab fa-youtube"></i><span>Subscribe</span>
+    </a>
+
+    <button id="menu-btn" class="fas fa-bars" aria-label="Open menu" aria-expanded="false"></button>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- page intro starts -->
+
+<section class="page-hero">
+    <div class="heading">
+        <span>Video codes</span>
+        <h1>Copy the code from our videos</h1>
+        <p>Pick a video, press Copy and paste the code into your editor. Then change it and make it yours.</p>
+    </div>
+
+    <div class="toolbar">
+        <div class="filters" role="group" aria-label="Filter by language">
+            <button class="filter active" data-filter="all" type="button">All</button>
+            <button class="filter" data-filter="html" type="button">HTML</button>
+            <button class="filter" data-filter="css" type="button">CSS</button>
+            <button class="filter" data-filter="js" type="button">JavaScript</button>
+        </div>
+        <label class="search">
+            <i class="fas fa-search"></i>
+            <input type="search" id="search" placeholder="Search videos" aria-label="Search videos">
+        </label>
+    </div>
+</section>
+
+<!-- page intro ends -->
+
+<!-- code cards start -->
+
+<section class="code-section">
+
+    <div class="code-grid" id="code-grid">
+
+        <article class="code-card" data-cat="css" data-title="5 css tricks: glass blur a frosted-glass card using backdrop-filter.">
+            <div class="code-card-top">
+                <div class="tags"><span class="tag css">CSS</span><span class="tag kind">Short</span></div>
+                <h3>5 CSS tricks: glass blur</h3>
+                <p>A frosted-glass card using backdrop-filter.</p>
+            </div>
+            <div class="code-window">
+                <div class="bar"><i></i><i></i><i></i><em>CSS</em>
+                    <button class="copy-btn" type="button" aria-label="Copy code for 5 CSS tricks: glass blur"><i class="far fa-copy"></i><span>Copy</span></button>
+                </div>
+<pre><code>.glass-card {
+  background: rgba(255, 255, 255, 0.12);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+  padding: 24px;
+}</code></pre>
+            </div>
+            <a href="https://www.youtube.com/channel/UCu9IM22sC3gI85IC5qrIlCg/shorts" class="watch" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> Watch the video</a>
+        </article>
+
+        <article class="code-card" data-cat="css" data-title="5 css tricks: clip-path cut a banner into a slanted shape without images.">
+            <div class="code-card-top">
+                <div class="tags"><span class="tag css">CSS</span><span class="tag kind">Short</span></div>
+                <h3>5 CSS tricks: clip-path</h3>
+                <p>Cut a banner into a slanted shape without images.</p>
+            </div>
+            <div class="code-window">
+                <div class="bar"><i></i><i></i><i></i><em>CSS</em>
+                    <button class="copy-btn" type="button" aria-label="Copy code for 5 CSS tricks: clip-path"><i class="far fa-copy"></i><span>Copy</span></button>
+                </div>
+<pre><code>.banner {
+  background: linear-gradient(135deg, #2d8cff, #ff3045);
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}</code></pre>
+            </div>
+            <a href="https://www.youtube.com/channel/UCu9IM22sC3gI85IC5qrIlCg/shorts" class="watch" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> Watch the video</a>
+        </article>
+
+        <article class="code-card" data-cat="css" data-title="5 css tricks: :has() style a parent based on what it contains.">
+            <div class="code-card-top">
+                <div class="tags"><span class="tag css">CSS</span><span class="tag kind">Short</span></div>
+                <h3>5 CSS tricks: :has()</h3>
+                <p>Style a parent based on what it contains.</p>
+            </div>
+            <div class="code-window">
+                <div class="bar"><i></i><i></i><i></i><em>CSS</em>
+                    <button class="copy-btn" type="button" aria-label="Copy code for 5 CSS tricks: :has()"><i class="far fa-copy"></i><span>Copy</span></button>
+                </div>
+<pre><code>/* card with an image gets no padding */
+.card:has(img) {
+  padding: 0;
+}
+
+/* highlight a field group when its input is invalid */
+.form-group:has(input:invalid) {
+  border-color: #ff3045;
+}</code></pre>
+            </div>
+            <a href="https://www.youtube.com/channel/UCu9IM22sC3gI85IC5qrIlCg/shorts" class="watch" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> Watch the video</a>
+        </article>
+
+        <article class="code-card" data-cat="css" data-title="5 css tricks: scroll-snap a swipeable slider with no javascript.">
+            <div class="code-card-top">
+                <div class="tags"><span class="tag css">CSS</span><span class="tag kind">Short</span></div>
+                <h3>5 CSS tricks: scroll-snap</h3>
+                <p>A swipeable slider with no JavaScript.</p>
+            </div>
+            <div class="code-window">
+                <div class="bar"><i></i><i></i><i></i><em>CSS</em>
+                    <button class="copy-btn" type="button" aria-label="Copy code for 5 CSS tricks: scroll-snap"><i class="far fa-copy"></i><span>Copy</span></button>
+                </div>
+<pre><code>.slider {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.slider .slide {
+  flex: 0 0 80%;
+  scroll-snap-align: start;
+}</code></pre>
+            </div>
+            <a href="https://www.youtube.com/channel/UCu9IM22sC3gI85IC5qrIlCg/shorts" class="watch" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> Watch the video</a>
+        </article>
+
+        <article class="code-card" data-cat="css" data-title="5 css tricks: aspect-ratio keep thumbnails the same shape on every screen.">
+            <div class="code-card-top">
+                <div class="tags"><span class="tag css">CSS</span><span class="tag kind">Short</span></div>
+                <h3>5 CSS tricks: aspect-ratio</h3>
+                <p>Keep thumbnails the same shape on every screen.</p>
+            </div>
+            <div class="code-window">
+                <div class="bar"><i></i><i></i><i></i><em>CSS</em>
+                    <button class="copy-btn" type="button" aria-label="Copy code for 5 CSS tricks: aspect-ratio"><i class="far fa-copy"></i><span>Copy</span></button>
+                </div>
+<pre><code>.video-thumb {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}</code></pre>
+            </div>
+            <a href="https://www.youtube.com/channel/UCu9IM22sC3gI85IC5qrIlCg/shorts" class="watch" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> Watch the video</a>
+        </article>
+
+        <article class="code-card" data-cat="js" data-title="5 javascript array methods map, filter, reduce, find and some in one place.">
+            <div class="code-card-top">
+                <div class="tags"><span class="tag js">JavaScript</span><span class="tag kind">Short</span></div>
+                <h3>5 JavaScript array methods</h3>
+                <p>map, filter, reduce, find and some in one place.</p>
+            </div>
+            <div class="code-window">
+                <div class="bar"><i></i><i></i><i></i><em>JavaScript</em>
+                    <button class="copy-btn" type="button" aria-label="Copy code for 5 JavaScript array methods"><i class="far fa-copy"></i><span>Copy</span></button>
+                </div>
+<pre><code>const numbers = [1, 2, 3, 4, 5];
+
+const doubled = numbers.map(n =&gt; n * 2);
+const evens = numbers.filter(n =&gt; n % 2 === 0);
+const total = numbers.reduce((sum, n) =&gt; sum + n, 0);
+const firstBig = numbers.find(n =&gt; n &gt; 3);
+const hasNegative = numbers.some(n =&gt; n &lt; 0);
+
+console.log(doubled, evens, total, firstBig, hasNegative);</code></pre>
+            </div>
+            <a href="https://www.youtube.com/channel/UCu9IM22sC3gI85IC5qrIlCg/shorts" class="watch" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> Watch the video</a>
+        </article>
+
+        <article class="code-card" data-cat="css" data-title="make your website responsive a grid that adapts itself, plus a mobile breakpoint.">
+            <div class="code-card-top">
+                <div class="tags"><span class="tag css">CSS</span><span class="tag kind">Short</span></div>
+                <h3>Make your website responsive</h3>
+                <p>A grid that adapts itself, plus a mobile breakpoint.</p>
+            </div>
+            <div class="code-window">
+                <div class="bar"><i></i><i></i><i></i><em>CSS, HTML</em>
+                    <button class="copy-btn" type="button" aria-label="Copy code for Make your website responsive"><i class="far fa-copy"></i><span>Copy</span></button>
+                </div>
+<pre><code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+}</code></pre>
+            </div>
+            <a href="https://www.youtube.com/channel/UCu9IM22sC3gI85IC5qrIlCg/shorts" class="watch" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> Watch the video</a>
+        </article>
+
+        <article class="code-card" data-cat="html css" data-title="modern login form a clean login form with html and css.">
+            <div class="code-card-top">
+                <div class="tags"><span class="tag html">HTML</span><span class="tag css">CSS</span><span class="tag kind">Short</span></div>
+                <h3>Modern login form</h3>
+                <p>A clean login form with HTML and CSS.</p>
+            </div>
+            <div class="code-window">
+                <div class="bar"><i></i><i></i><i></i><em>CSS, HTML</em>
+                    <button class="copy-btn" type="button" aria-label="Copy code for Modern login form"><i class="far fa-copy"></i><span>Copy</span></button>
+                </div>
+<pre><code>&lt;form class=&quot;login&quot;&gt;
+  &lt;h2&gt;Welcome back&lt;/h2&gt;
+  &lt;input type=&quot;email&quot; placeholder=&quot;Email&quot; required&gt;
+  &lt;input type=&quot;password&quot; placeholder=&quot;Password&quot; required&gt;
+  &lt;button type=&quot;submit&quot;&gt;Log in&lt;/button&gt;
+&lt;/form&gt;
+
+.login {
+  display: grid;
+  gap: 14px;
+  max-width: 360px;
+  margin: 40px auto;
+  padding: 32px;
+  background: #0d1738;
+  border-radius: 16px;
+  color: #fff;
+}
+
+.login input {
+  padding: 12px 14px;
+  border: 1px solid #2a3a73;
+  border-radius: 8px;
+  background: #050814;
+  color: #fff;
+}
+
+.login button {
+  padding: 12px;
+  border: 0;
+  border-radius: 8px;
+  background: #ff3045;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}</code></pre>
+            </div>
+            <a href="https://www.youtube.com/channel/UCu9IM22sC3gI85IC5qrIlCg/shorts" class="watch" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> Watch the video</a>
+        </article>
+
+        <article class="code-card" data-cat="html" data-title="5 ways to load your website faster small html changes that speed up a page.">
+            <div class="code-card-top">
+                <div class="tags"><span class="tag html">HTML</span><span class="tag kind">Short</span></div>
+                <h3>5 ways to load your website faster</h3>
+                <p>Small HTML changes that speed up a page.</p>
+            </div>
+            <div class="code-window">
+                <div class="bar"><i></i><i></i><i></i><em>HTML</em>
+                    <button class="copy-btn" type="button" aria-label="Copy code for 5 ways to load your website faster"><i class="far fa-copy"></i><span>Copy</span></button>
+                </div>
+<pre><code>&lt;!-- lazy-load images below the fold, and set a size --&gt;
+&lt;img src=&quot;photo.jpg&quot; alt=&quot;Describe the photo&quot; loading=&quot;lazy&quot; width=&quot;800&quot; height=&quot;450&quot;&gt;
+
+&lt;!-- load JavaScript without blocking the page --&gt;
+&lt;script src=&quot;script.js&quot; defer&gt;&lt;/script&gt;
+
+&lt;!-- load important CSS early --&gt;
+&lt;link rel=&quot;preload&quot; href=&quot;style.css&quot; as=&quot;style&quot;&gt;</code></pre>
+            </div>
+            <a href="https://www.youtube.com/channel/UCu9IM22sC3gI85IC5qrIlCg/shorts" class="watch" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> Watch the video</a>
+        </article>
+
+        <article class="code-card" data-cat="html css js" data-title="html vs css vs javascript the same button built with all three languages.">
+            <div class="code-card-top">
+                <div class="tags"><span class="tag html">HTML</span><span class="tag css">CSS</span><span class="tag js">JavaScript</span><span class="tag kind">Short</span></div>
+                <h3>HTML vs CSS vs JavaScript</h3>
+                <p>The same button built with all three languages.</p>
+            </div>
+            <div class="code-window">
+                <div class="bar"><i></i><i></i><i></i><em>CSS, HTML, JavaScript</em>
+                    <button class="copy-btn" type="button" aria-label="Copy code for HTML vs CSS vs JavaScript"><i class="far fa-copy"></i><span>Copy</span></button>
+                </div>
+<pre><code>&lt;!-- HTML: structure --&gt;
+&lt;button id=&quot;btn&quot;&gt;Click me&lt;/button&gt;
+
+/* CSS: style */
+#btn {
+  background: #2d8cff;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+}
+
+// JavaScript: behavior
+document.querySelector(&#x27;#btn&#x27;).addEventListener(&#x27;click&#x27;, () =&gt; {
+  alert(&#x27;Hello!&#x27;);
+});</code></pre>
+            </div>
+            <a href="https://www.youtube.com/channel/UCu9IM22sC3gI85IC5qrIlCg/shorts" class="watch" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> Watch the video</a>
+        </article>
+    </div>
+
+    <p class="empty" id="empty" hidden>No videos match your search. Try another word or choose All.</p>
+
+</section>
+
+<!-- code cards end -->
+
+<!-- subscribe section starts -->
+
+<section class="newsletter" id="subscribe">
+    <div class="content">
+        <img src="images/logo.png" alt="" class="sub-logo" loading="lazy">
+        <h3>Want code for the next video?</h3>
+        <p>Subscribe to get notified when we upload, and comment which topic you want next.</p>
+        <a href="https://www.youtube.com/channel/UCu9IM22sC3gI85IC5qrIlCg?sub_confirmation=1" class="btn btn-sub btn-lg" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> Subscribe on YouTube</a>
+    </div>
+</section>
+
+<!-- subscribe section ends -->
+
+<!-- footer section starts -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box brand">
+            <h3>Web Team Builder</h3>
+            <p>Code, create, grow. Web development tutorials for people who want to build websites.</p>
+            <a href="https://www.youtube.com/channel/UCu9IM22sC3gI85IC5qrIlCg?sub_confirmation=1" class="btn btn-sub" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> Subscribe</a>
+        </div>
+
+        <div class="box">
+            <h3>Quick links</h3>
+            <a href="index.html">Home</a>
+            <a href="videos.html">Video codes</a>
+            <a href="index.html#content">Videos</a>
+            <a href="index.html#faq">FAQ</a>
+        </div>
+
+        <div class="box">
+            <h3>Watch on YouTube</h3>
+            <a href="https://www.youtube.com/channel/UCu9IM22sC3gI85IC5qrIlCg" target="_blank" rel="noopener">Channel home</a>
+            <a href="https://www.youtube.com/channel/UCu9IM22sC3gI85IC5qrIlCg/videos" target="_blank" rel="noopener">Tutorials</a>
+            <a href="https://www.youtube.com/channel/UCu9IM22sC3gI85IC5qrIlCg/shorts" target="_blank" rel="noopener">Shorts</a>
+        </div>
+
+    </div>
+
+    <div class="credit">&copy; 2026 Web Team Builder. All rights reserved.</div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- back to top button -->
+<button class="to-top" type="button" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="js/videos.js"></script>
+
+</body>
+</html>
